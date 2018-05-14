@@ -1,3 +1,4 @@
+package Juego;
 import java.applet.Applet;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -7,7 +8,7 @@ public class Frog extends Rectangle {
 	Image imagen;
 
 	public Frog(Image imagen) {
-		super(500, 25, 75, 75);
+		super(500, 25, 50, 70);
 		this.imagen = imagen;
 	}
 
